@@ -1,0 +1,28 @@
+^D:\DATA GT\MOBILEAPPS\NETWORKING\NETWORKING\BUILD\WINDOWS\CMAKEFILES\9F3A7DFB0E0D844C7B10AC6F7020B0CA\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Android\flutter "PROJECT_DIR=D:\Data GT\MobileApps\networking\networking" FLUTTER_ROOT=C:\Android\flutter "FLUTTER_EPHEMERAL_DIR=D:\Data GT\MobileApps\networking\networking\windows\flutter\ephemeral" "PROJECT_DIR=D:\Data GT\MobileApps\networking\networking" "FLUTTER_TARGET=D:\Data GT\MobileApps\networking\networking\lib\main.dart" DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false "PACKAGE_CONFIG=D:\Data GT\MobileApps\networking\networking\.dart_tool\package_config.json" C:/Android/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\DATA GT\MOBILEAPPS\NETWORKING\NETWORKING\BUILD\WINDOWS\CMAKEFILES\B1FE6AAB0EBC9CD3DD8D7DC255899BF1\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\DATA GT\MOBILEAPPS\NETWORKING\NETWORKING\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/Data GT/MobileApps/networking/networking/windows" "-BD:/Data GT/MobileApps/networking/networking/build/windows" --check-stamp-file "D:/Data GT/MobileApps/networking/networking/build/windows/flutter/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

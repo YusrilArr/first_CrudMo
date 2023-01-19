@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Data GT\MobileApps\networking\networking\build\windows\CMakeFiles\9f3a7dfb0e0d844c7b10ac6f7020b0ca\flutter_windows.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Data GT\MobileApps\networking\networking\build\windows\CMakeFiles\b1fe6aab0ebc9cd3dd8d7dc255899bf1\flutter_assemble.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Data GT\MobileApps\networking\networking\windows\flutter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Data GT\MobileApps\networking\networking\build\windows\flutter\CMakeFiles\flutter_assemble" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F974B489-6F98-3D2E-9C7D-EF739B5D40D3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
